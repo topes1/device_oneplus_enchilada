@@ -32,9 +32,13 @@ PRODUCT_MODEL := ONEPLUS A6003
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
+#Official
+SPARK_BUILD_TYPE := OFFICIAL
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=OnePlus6 \
     PRODUCT_NAME=OnePlus6 \
     PRIVATE_BUILD_DESC="OnePlus6-user 8.1.0 OPM1.171019.011 273 release-keys"
 
-BUILD_FINGERPRINT := google/redfin/redfin:11/RQ3A.210905.001/7511028:user/release-keys
+BUILD_FINGERPRINT := google/redfin/redfin:12/SPB5.210812.002/7654839:user/release-keys
+#google/redfin/redfin:11/RQ3A.210905.001/7511028:user/release-keys
